@@ -1,20 +1,18 @@
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import MainContent from "../components/MainContent";
+import Header from "../components/Header";
 
-function Home() {
+export default function Home() {
   return (
-    <>
+    <div >
+      <Header />
       <Navbar />
-      <div className="p-10">
-        <h1 className="text-4xl font-bold">
-          ICAART Conference
-        </h1>
 
-        <p className="mt-4">
-          International Conference on Agents and Artificial Intelligence
-        </p>
+      <div className="max-w-6xl mx-auto flex">
+        <Sidebar />
+        <MainContent />
       </div>
-    </>
-  )
+    </div>
+  );
 }
-
-export default Home

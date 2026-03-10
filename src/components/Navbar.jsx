@@ -1,16 +1,13 @@
-import { Link } from "react-router-dom"
-
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="bg-blue-900 text-white p-4">
-      <div className="flex gap-6">
-        <Link to="/">Home</Link>
-        <Link to="/call-for-papers">Call for Papers</Link>
-        <Link to="/program">Program</Link>
-        <Link to="/venue">Venue</Link>
+    <div className="bg-black border-b">
+    <div className="w-full flex justify-end pr-10 pb-2 text-white text-xs gap- font-semibold">
+        <a className="hover:text-yellow-400 cursor-pointer">Home</a>
+        <a className="hover:text-yellow-400 cursor-pointer">Log In</a>
+        <a className="hover:text-yellow-400 cursor-pointer">Contacts</a>
+        <a className="hover:text-border-white cursor-pointer">FAQs</a>
+        <a className=" cursor-pointer">INSTICC Portal</a>
       </div>
-    </nav>
-  )
+    </div>
+  );
 }
-
-export default Navbar
