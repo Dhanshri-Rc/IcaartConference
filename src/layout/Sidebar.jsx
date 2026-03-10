@@ -65,7 +65,7 @@ export default function Sidebar() {
       {/* LOGISTICS */}
       <p className="font-semibold text-center mb-6">Logistics:</p>
       <img src={scitevents} className="mx-auto w-[150px] mb-[650px]" />
- <hr className="my-6 border-dashed border-gray-400" />
+
     </div>
 
 

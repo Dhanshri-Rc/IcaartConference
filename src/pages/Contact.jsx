@@ -3,7 +3,7 @@ import React from 'react'
 function Contact() {
   return (
     <div>
-      <h1>this is contact page</h1>
+      <h1 className="font-bold text-black text-[20px]">Contacts</h1>
     </div>
   )
 }
