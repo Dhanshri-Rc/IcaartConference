@@ -1,9 +1,9 @@
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
-import MainContent from "../components/MainContent";
+import Contact from "../components/Contact";
 import Header from "../components/Header";
 
-export default function Home() {
+export default function Contactpage() {
   return (
     <div >
       <Header />
@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="flex">
         <Sidebar />
-        <MainContent />
+        <Contact />
       </div>
     </div>
   );
