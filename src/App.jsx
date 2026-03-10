@@ -18,8 +18,8 @@ function App() {
           </Route>
         </Routes>
 
-        <hr className="my-6 border-dashed border-gray-400 " />
-        <p className="text-[12px] text-black text-end">
+        <hr className="my-2 border-dashed border-gray-400 " />
+        <p className="text-[12px] text-black text-end px-2 py-1">
           © 2026 <span className="text-[#a05000]">INSTICC</span>{" "}
         </p>
       </div>

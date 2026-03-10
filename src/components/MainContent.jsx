@@ -3,6 +3,9 @@ import { useState, useEffect } from "react";
 import homeimg from "../assets/homeimg.png";
 import homeimg1 from "../assets/homeimg1.png";
 import homeimg2 from "../assets/homeimg2.png";
+import homeimg3 from "../assets/homeimg3.png";
+import homeimg4 from "../assets/homeimg4.png";
+
 
 import home2 from "../assets/home2.png";
 import home3 from "../assets/home3.png";
@@ -15,18 +18,29 @@ import home9 from "../assets/home9.png";
 
 export default function MainContent() {
   // Image slider array
-  const images = [homeimg, homeimg1, homeimg2];
+ const images = [
+  homeimg,
+  homeimg1,
+  homeimg2,
+  homeimg3,
+  homeimg4
+];
 
   const [currentImage, setCurrentImage] = useState(0);
 
   // Change image every 2 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 2000);
+ useEffect(() => {
+  const interval = setInterval(() => {
+    setCurrentImage((prev) => {
+      if (prev === images.length - 1) {
+        return 0;
+      }
+      return prev + 1;
+    });
+  }, 2000);
 
-    return () => clearInterval(interval);
-  }, []);
+  return () => clearInterval(interval);
+}, [images.length]);
 
   return (
     <div className="flex-1 px-[1px] py-6 text-[12px]">
@@ -46,7 +60,7 @@ export default function MainContent() {
       </div>
 
       {/* Main Description + Image */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-[220px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-[150px]">
         {/* Text */}
         <div className="text-black text-justify">
           <p>
@@ -80,7 +94,7 @@ export default function MainContent() {
       {/* Publications */}
       <h2 className="font-bold text-md mb-4">Publications:</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mb-[100px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 mb-[150px]">
         <div>
           <img src={home2} className="h-30 mb-4" />
 
