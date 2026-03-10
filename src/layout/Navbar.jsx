@@ -2,16 +2,23 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="bg-black border-b">
-      <div className="w-full flex justify-end pr-10 pb-2 text-white text-xs gap-6 font-semibold">
+    <div className="bg-black border-b ">
+      <div className="w-full flex justify-end pr-8 pb-2 text-white text-sm gap-4 font-bold">
 
         <Link to="/" className="border-b-2 border-transparent hover:border-white">
           Home
         </Link>
 
-        <Link to="/login" className="border-b-2 border-transparent hover:border-white">
+        {/* <Link to="/login" className="border-b-2 border-transparent hover:border-white">
           Log In
-        </Link>
+        </Link> */}
+         <a
+          href="https://www.insticc.org/Primoris/Default.aspx/"
+          target="_blank"
+          className="border-b-2 border-transparent hover:border-white"
+        >
+          Log In
+        </a>
 
         <Link to="/contact" className="border-b-2 border-transparent hover:border-white">
           Contacts
@@ -22,7 +29,7 @@ export default function Navbar() {
         </Link>
 
         <a
-          href="https://www.insticc.org"
+          href="https://portal.insticc.org/"
           target="_blank"
           className="border-b-2 border-transparent hover:border-white"
         >
