@@ -8,7 +8,7 @@ import FAQ from "./pages/FAQ";
 function App() {
   return (
     <div className="bg-black min-h-screen flex justify-center">
-      <div className="w-[950px] bg-white">
+      <div className="w-[980px] bg-white">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
