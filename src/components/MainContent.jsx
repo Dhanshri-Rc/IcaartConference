@@ -6,7 +6,6 @@ import homeimg2 from "../assets/homeimg2.png";
 import homeimg3 from "../assets/homeimg3.png";
 import homeimg4 from "../assets/homeimg4.png";
 
-
 import home2 from "../assets/home2.png";
 import home3 from "../assets/home3.png";
 import home4 from "../assets/home4.png";
@@ -18,45 +17,39 @@ import home9 from "../assets/home9.png";
 
 export default function MainContent() {
   // Image slider array
- const images = [
-  homeimg,
-  homeimg1,
-  homeimg2,
-  homeimg3,
-  homeimg4
-];
+  const images = [homeimg, homeimg1, homeimg2, homeimg3, homeimg4];
 
   const [currentImage, setCurrentImage] = useState(0);
 
   // Change image every 2 seconds
- useEffect(() => {
-  const interval = setInterval(() => {
-    setCurrentImage((prev) => {
-      if (prev === images.length - 1) {
-        return 0;
-      }
-      return prev + 1;
-    });
-  }, 2000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => {
+        if (prev === images.length - 1) {
+          return 0;
+        }
+        return prev + 1;
+      });
+    }, 2000);
 
-  return () => clearInterval(interval);
-}, [images.length]);
+    return () => clearInterval(interval);
+  }, [images.length]);
 
   return (
     <div className="flex-1 px-[1px] py-6 text-[12px]">
       {/* Top Notice */}
       <div className="text-center mb-12 text-[12px] font-semibold">
-      <p>
-  ICAART 2027 will be held in conjunction with{" "}
-  <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800">
-    ICISSP 2027
-  </span>{" "}
-  and{" "}
-  <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800 ">
-    PHOTOPTICS 2027
-  </span>.
-</p>
-
+        <p>
+          ICAART 2027 will be held in conjunction with{" "}
+          <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800">
+            ICISSP 2027
+          </span>{" "}
+          and{" "}
+          <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800 ">
+            PHOTOPTICS 2027
+          </span>
+          .
+        </p>
 
         <p>
           Registration to ICAART allows free access to the ICISSP and PHOTOPTICS
@@ -99,7 +92,7 @@ export default function MainContent() {
       {/* Publications */}
       <h2 className="font-bold text-md mb-4">Publications:</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mb-[150px]">
+      <div className="grid grid-cols-1 md:grid-cols-2  mb-[150px]">
         <div>
           <img src={home2} className="h-30 mb-4" />
 

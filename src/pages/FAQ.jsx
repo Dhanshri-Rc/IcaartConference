@@ -4,23 +4,19 @@ function FAQ() {
   return (
     <div className="p-2 px-[1px] text-sm">
       <h1 className="text-[21px] font-bold mb-6">FREQUENTLY ASKED QUESTIONS</h1>
-
       {/* Section 1 */}
       <p className="font-bold mb-2 text-[16px]">
         1 - Interacting with PRIMORIS – Event Management System
       </p>
-
       <div className="text-orange-700 ml-4 mb-2 font-bold">
         <p>1.1 - What is PRIMORIS?</p>
         <p>1.2 - How can I create an account in PRIMORIS?</p>
         <p>1.3 - How can my e-mail address be updated in PRIMORIS?</p>
       </div>
-
       {/* Section 2 */}
       <p className="font-bold mb-2 text-[16px]">
         2 - Acting as a Reviewer in the Event
       </p>
-
       <div className="text-orange-700 ml-4 mb-2 font-bold">
         <p>2.1 - Which are my duties as a reviewer?</p>
         <p>2.2 - How the reviewing process works?</p>
@@ -35,12 +31,10 @@ function FAQ() {
           2.5 - As a Program Committee Member can I submit a paper to the Event?
         </p>
       </div>
-
       {/* Section 3 */}
       <p className="font-bold mb-2 text-[16px]">
         3 - Submitting papers to the Event
       </p>
-
       <div className="text-orange-700 ml-4 mb-2 font-bold">
         <p>3.1 - When and how can I submit my paper to the Event?</p>
         <p>3.2 - When should I submit an abstract?</p>
@@ -62,12 +56,10 @@ function FAQ() {
         <p>3.12 - Will my paper be indexed?</p>
         <p>3.13 - Is it possible to edit my paper after I've submitted it?</p>
       </div>
-
       {/* Section 4 */}
       <p className="font-bold mb-2 text-[16px]">
         4 - Setting up my Camera-Ready submission
       </p>
-
       <div className="text-orange-700 ml-4 mb-2 font-bold">
         <p>
           4.1 - Is there a page limit to my camera-ready (final) submission?
@@ -77,10 +69,8 @@ function FAQ() {
         <p>4.4 - Who owns the copyright of the camera-ready submission?</p>
         <p>4.5 - How will the Event publish and distribute my work?</p>
       </div>
-
       {/* Section 5 */}
       <p className="font-bold mb-2 text-[16px]">5 - Register to the Event</p>
-
       <div className="text-orange-700 ml-4 mb-2 font-bold">
         <p>5.1 - Can I register on-site?</p>
         <p>
@@ -109,7 +99,6 @@ function FAQ() {
           registration fee?
         </p>
       </div>
-
       <p className="font-bold mb-2 text-[16px]">
         6 - Chairing a Session at the Event
       </p>
@@ -127,7 +116,6 @@ function FAQ() {
           guidelines?
         </p>
       </div>
-
       <p className="font-bold mb-2 text-[16px]">
         8 - Organizing a Satellite Event
       </p>
@@ -182,14 +170,12 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         1.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
       <p className="font-bold mb-1 text-[15px]">
         2 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -221,7 +207,6 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         2.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         To create a PRIMORIS account, go to{" "}
         <span className="text-orange-700">
@@ -239,7 +224,7 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-       <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         2.5 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -248,7 +233,6 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
       <p className="font-bold mb-1 text-[15px]">
         3 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -280,14 +264,13 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         3.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-       <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         3.4 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -295,7 +278,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.5 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -303,7 +287,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.6 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -311,7 +296,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.7 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -319,7 +305,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.8 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -327,7 +314,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.9 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -336,7 +324,7 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-       <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         3.10 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -344,7 +332,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.11 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -352,7 +341,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         3.12 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -361,7 +351,7 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-       <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         3.13 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -370,13 +360,6 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
-
-
-
-
-
-
       <p className="font-bold mb-1 text-[15px]">
         4 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -408,14 +391,13 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         4.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
- <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         4.4 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -423,7 +405,8 @@ function FAQ() {
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p> <p className="font-bold text-[14px] ml-4">
+      </p>{" "}
+      <p className="font-bold text-[14px] ml-4">
         4.5 - How can my e-mail address be updated in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -432,12 +415,6 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
-
-
-
-
-
       <p className="font-bold mb-1 text-[15px]">
         5 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -469,7 +446,6 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         5.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
@@ -487,7 +463,7 @@ function FAQ() {
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-       <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         5.5 - How can I create an account in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -501,7 +477,6 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         5.6 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
@@ -522,13 +497,13 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         5.8 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
-      </p><p className="font-bold text-[14px] ml-4">
+      </p>
+      <p className="font-bold text-[14px] ml-4">
         5.9- How can I create an account in PRIMORIS?
       </p>
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
@@ -542,22 +517,12 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         5.10 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
-
-
-
-
-
-
-
-
       <p className="font-bold mb-1 text-[15px]">
         6 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -575,8 +540,6 @@ function FAQ() {
         just to name a few. <br />{" "}
         <span className="text-orange-700">Back to Top</span>
       </p>
-      
-
       <p className="font-bold mb-1 text-[15px]">
         7- Interacting with PRIMORIS – Event Management System
       </p>
@@ -600,24 +563,20 @@ function FAQ() {
         <span className="text-orange-700">PRIMORIS </span> is the code name for
         a user-friendly Event Management System which was initially developed
         for supporting INSTICC sponsored events. It is now available to support
-        the organization of any conference, and back-office
-       r, invited speaker and author,
-        just to name a few. <br />{" "}
+        the organization of any conference, and back-office r, invited speaker
+        and author, just to name a few. <br />{" "}
         <span className="text-orange-700">Back to Top</span>
       </p>
       <p className="font-bold text-[14px] ml-4">
         7.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
-
-<p className="font-bold mb-1 text-[15px]">
+      <p className="font-bold mb-1 text-[15px]">
         8 - Interacting with PRIMORIS – Event Management System
       </p>
       <p className="font-bold text-[14px] ml-4">8.1 - What is PRIMORIS?</p>
@@ -634,15 +593,12 @@ function FAQ() {
         just to name a few. <br />{" "}
         <span className="text-orange-700">Back to Top</span>
       </p>
-
-
       <p className="font-bold mb-1 text-[15px]">
         9 - Interacting with PRIMORIS – Event Management System
       </p>
-        <p className="font-bold text-[14px] ml-4">
+      <p className="font-bold text-[14px] ml-4">
         9.1 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
@@ -656,13 +612,11 @@ function FAQ() {
         a user-friendly Event Management System which was initially developed
         for supporting INSTICC sponsored events. It is now available to support
         the organization of any conference, either as a shared service or as a
-        multi-tenant system. PRIMORIS supports most front- and back-office
-        just to name a few. <br />{" "}
+        multi-tenant system. PRIMORIS supports most front- and back-office just
+        to name a few. <br />{" "}
         <span className="text-orange-700">Back to Top</span>
       </p>
-
-
- <p className="font-bold mb-1 text-[15px]">
+      <p className="font-bold mb-1 text-[15px]">
         10 - Interacting with PRIMORIS – Event Management System
       </p>
       <p className="font-bold text-[14px] ml-4">10.1 - What is PRIMORIS?</p>
@@ -673,7 +627,6 @@ function FAQ() {
         for supporting INSTICC <br />
         <span className="text-orange-700">Back to Top</span>
       </p>
-
       <p className="font-bold mb-1 text-[15px]">
         11 - Interacting with PRIMORIS – Event Management System
       </p>
@@ -705,14 +658,12 @@ function FAQ() {
       <p className="font-bold text-[14px] ml-4">
         11.3 - How can my e-mail address be updated in PRIMORIS?
       </p>
-
       <p className="text-black text-[13px] ml-4 text-justify mb-3">
         Contact the Event secretariat so that your e-mail is changed. Your
         password will remain the same.
         <br />
         <span className="text-orange-700">Back to Top</span>{" "}
       </p>
-
     </div>
   );
 }
