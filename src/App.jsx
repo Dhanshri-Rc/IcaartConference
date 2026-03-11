@@ -7,7 +7,7 @@ import FAQ from "./pages/FAQ";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen flex justify-center pb-4">
+    <div className="bg-black min-h-screen flex justify-center pb-4 pt-2">
       <div className="w-[980px] bg-white rounded-b-xl overflow-hidden">
         
         <Routes>
