@@ -45,13 +45,18 @@ export default function MainContent() {
   return (
     <div className="flex-1 px-[1px] py-6 text-[12px]">
       {/* Top Notice */}
-      <div className="text-center mb-12 font-medium">
-        <p>
-          ICAART 2027 will be held in conjunction with{" "}
-          <span className="text-orange-600 font-semibold">ICISSP 2027</span> and{" "}
-          <span className="text-orange-600 font-semibold">PHOTOPTICS 2027</span>
-          .
-        </p>
+      <div className="text-center mb-12 text-[12px] font-semibold">
+      <p>
+  ICAART 2027 will be held in conjunction with{" "}
+  <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800">
+    ICISSP 2027
+  </span>{" "}
+  and{" "}
+  <span className="text-red-800 font-bold cursor-pointer underline decoration-2 decoration-red-800 ">
+    PHOTOPTICS 2027
+  </span>.
+</p>
+
 
         <p>
           Registration to ICAART allows free access to the ICISSP and PHOTOPTICS
@@ -60,7 +65,7 @@ export default function MainContent() {
       </div>
 
       {/* Main Description + Image */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-[150px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start mb-[150px] font-semibold">
         {/* Text */}
         <div className="text-black text-justify">
           <p>
