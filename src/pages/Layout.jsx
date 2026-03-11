@@ -1,7 +1,7 @@
-import Header from "../Layout/Header.jsx"
+import Header from "../Layout/Header"
 import { Outlet } from "react-router-dom";
-import Navbar from "../Layout/Navbar.jsx";
-import Sidebar from "../Layout/Sidebar.jsx";
+import Navbar from "../Layout/Navbar";
+import Sidebar from "../Layout/Sidebar";
 
 export default function Layout() {
   return (
