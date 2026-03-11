@@ -4,6 +4,17 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import FAQ from "./pages/FAQ";
+import Important from "./pages/sidebarpages/Important";
+import Key from "./pages/sidebarpages/Key";
+import Event from "./pages/sidebarpages/Event";
+import Best from "./pages/sidebarpages/Best";
+import Workshop from "./pages/sidebarpages/Workshop";
+import Special from "./pages/sidebarpages/Special";
+import Tutorials from "./pages/sidebarpages/Tutorials";
+import Demo from "./pages/sidebarpages/Demo";
+import Panel from "./pages/sidebarpages/Panel";
+import Academic from "./pages/sidebarpages/Academic";
+import Industrials from "./pages/sidebarpages/Industrials";
 
 function App() {
   return (
@@ -16,6 +27,22 @@ function App() {
             <Route path="contact" element={<Contact />} />
             {/* <Route path="login" element={<Login />} /> */}
             <Route path="faq" element={<FAQ />} />
+            <Route path="important-dates" element={<Important />} />
+            <Route path="keynote-lectures" element={<Key />} />
+            <Route path="event-chairs" element={<Event />} />
+            <Route path="best-paper-awards" element={<Best />} />
+            <Route path="workshops" element={<Workshop />} />
+            <Route path="special-sessions" element={<Special />} />
+            <Route path="tutorials" element={<Tutorials />} />
+            <Route path="demos" element={<Demo />} />
+            <Route path="panels" element={<Panel />} />
+            <Route path="academic-partners" element={<Academic />} />
+            <Route path="industrial-partners" element={<Industrials />} />
+            {/* <Route path="institutional-partners" element={<Institutional />} />
+            <Route path="media-partners" element={<Media />} />
+            <Route path="partner-events" element={<PartnerEvents />} />
+            <Route path="publication-partners" element={<Publication />} /> */}
+
           </Route>
         </Routes>
 
