@@ -53,24 +53,36 @@ export default function Sidebar() {
       <h3 className="font-bold text-black mx-2 text-[14px]">Partners</h3>
 
       <ul className="text-[#a05000]  mx-4">
-        <li> <Link to="/academic-partners" className="hover:underline">
+        <li> 
+          {/* <Link to="/academic-partners" className="hover:underline"> */}
           Academic Partners
-        </Link></li>
-        <li> <Link to="/industrial-partners" className="hover:underline">
+        {/* </Link> */}
+        </li>
+        <li> 
+          {/* <Link to="/industrial-partners" className="hover:underline"> */}
           Industrial Partners
-        </Link></li>
-        <li> <Link to="/institutional-partners" className="hover:underline">
+        {/* </Link> */}
+        </li>
+        <li> 
+          {/* <Link to="/institutional-partners" className="hover:underline"> */}
           Institutional Partners
-        </Link></li>
-        <li> <Link to="/media-partners" className="hover:underline">
+        {/* </Link> */}
+        </li>
+        <li> 
+          {/* <Link to="/media-partners" className="hover:underline"> */}
           Media Partners
-        </Link></li>
-        <li> <Link to="/partner-events" className="hover:underline">
+        {/* </Link> */}
+        </li>
+        <li> 
+          {/* <Link to="/partner-events" className="hover:underline"> */}
           Partner Events
-        </Link></li>
-        <li> <Link to="/publication-partners" className="hover:underline">
+        {/* </Link> */}
+        </li>
+        <li> 
+          {/* <Link to="/publication-partners" className="hover:underline"> */}
           Publication Partners
-        </Link></li>
+        {/* </Link> */}
+        </li>
       </ul>
 
       {/* PREVIOUS CONFERENCES */}
