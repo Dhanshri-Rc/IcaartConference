@@ -1,4 +1,7 @@
 import React from "react";
+import Sidebar5 from "../../assets/sidebar5.png";
+import Sidebar6 from "../../assets/sidebar6.png";
+
 
 function Industrials() {
   return (
@@ -23,7 +26,7 @@ function Industrials() {
         learning, scheduling, perception amongst others.
       </p>
 
-      <p className="text-black text-[13px] mb-6">
+      <p className="text-black text-[13px] mb-20">
         ICAART 2027 <span className="font-bold"> will bring together </span> engineers, computer scientists and <span className="font-bold">  world
         renowned experts and researchers,</span>  providing a <span className="font-bold"> privileged forum for
         showcasing your organization </span>  to an audience that is highly focused on
@@ -32,13 +35,44 @@ function Industrials() {
         demonstration area, speaker slots, and publishing materials as
         advertising packs.
       </p>
+
+    <div className="grid grid-cols-1 md:grid-cols-2  items-start mb-6 ">
+        {/* Text */}
+        <div className="">
+        <img src={Sidebar6} alt="Sidebar 5" />
+        <img className="mt-2" src={Sidebar6} alt="Sidebar 5" />
+        <img className="mt-2" src={Sidebar6} alt="Sidebar 5" />
+        <img className="mt-2" src={Sidebar6} alt="Sidebar 5" />
+        <img className="mt-2" src={Sidebar6} alt="Sidebar 5" />
+
+
+        
+        </div>
+
+        {/* Image Slider */}
+        <div className="flex justify-center">
+          <img
+            src={Sidebar5}
+            alt="Conference Location"
+            className=" w-[380px] "
+          />
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
       <p className="text-[13px] ">
-        If you wish to propose a new Workshop please kindly fill out and submit
-        this{" "}
-        <span className="text-orange-700 font-bold cursor-pointer underline">
-          Expression of Interest{" "}
+        To find out more information, select one the items above, or{" "}
+        <span className="text-orange-700 cursor-pointer underline">
+          contact us{" "}
         </span>
-        form.{" "}
+        {" "}
       </p>
 
       <hr className="border-t-2 border-gray-900 my-6" />
