@@ -44,7 +44,7 @@ export default function Sidebar() {
       {/* PREVIOUS CONFERENCES */}
       <h3 className="font-bold text-black mx-2">Previous Conferences</h3>
 
-      <ul className="text-[#a05000]  mb-16 mx-4">
+      <ul className="text-[#e67505]  mb-16 mx-4">
         <li>Websites</li>
         <li>Abstracts</li>
         <li>Invited Speakers</li>
