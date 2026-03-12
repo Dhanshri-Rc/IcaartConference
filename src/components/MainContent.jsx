@@ -131,7 +131,7 @@ export default function MainContent() {
         <img src={home4} className="h-10" />
         <img src={home5} className="h-12" />
         <img src={home6} className="h-12" />
-        <img src={home7} className="h-10" />
+        <img src={home7} className="h-14" />
         <img src={home8} className="h-10" />
 
         <div>
