@@ -15,6 +15,12 @@ import Demo from "./pages/sidebarpages/Demo";
 import Panel from "./pages/sidebarpages/Panel";
 import Academic from "./pages/sidebarpages/Academic";
 import Industrials from "./pages/sidebarpages/Industrials";
+import Institutional from "./pages/sidebarpages/Institutional";
+import Media from "./pages/sidebarpages/Media";
+import Partner from "./pages/sidebarpages/Partner";
+import Publication from "./pages/sidebarpages/Publication";
+import Website from "./pages/sidebarpages/Website";
+import Abstract from "./pages/sidebarpages/Abstract";
 
 function App() {
   return (
@@ -38,10 +44,14 @@ function App() {
             <Route path="panels" element={<Panel />} />
             <Route path="academic-partners" element={<Academic />} />
             <Route path="industrial-partners" element={<Industrials />} />
-            {/* <Route path="institutional-partners" element={<Institutional />} />
+           <Route path="institutional-partners" element={<Institutional />} />
             <Route path="media-partners" element={<Media />} />
-            <Route path="partner-events" element={<PartnerEvents />} />
-            <Route path="publication-partners" element={<Publication />} /> */}
+            <Route path="partner-events" element={<Partner />} />
+            <Route path="publication-partners" element={<Publication />} /> 
+            <Route path="website" element={<Website />} />
+            <Route path="abstracts" element={<Abstract />} />
+
+
 
           </Route>
         </Routes>

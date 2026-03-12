@@ -54,34 +54,34 @@ export default function Sidebar() {
 
       <ul className="text-[#a05000]  mx-4">
         <li> 
-          {/* <Link to="/academic-partners" className="hover:underline"> */}
+          <Link to="/academic-partners" className="hover:underline">
           Academic Partners
-        {/* </Link> */}
+        </Link>
         </li>
         <li> 
-          {/* <Link to="/industrial-partners" className="hover:underline"> */}
+          <Link to="/industrial-partners" className="hover:underline">
           Industrial Partners
-        {/* </Link> */}
+        </Link>
         </li>
         <li> 
-          {/* <Link to="/institutional-partners" className="hover:underline"> */}
+          <Link to="/institutional-partners" className="hover:underline">
           Institutional Partners
-        {/* </Link> */}
+        </Link>
         </li>
         <li> 
-          {/* <Link to="/media-partners" className="hover:underline"> */}
+          <Link to="/media-partners" className="hover:underline">
           Media Partners
-        {/* </Link> */}
+        </Link>
         </li>
         <li> 
-          {/* <Link to="/partner-events" className="hover:underline"> */}
+          <Link to="/partner-events" className="hover:underline">
           Partner Events
-        {/* </Link> */}
+        </Link>
         </li>
         <li> 
-          {/* <Link to="/publication-partners" className="hover:underline"> */}
+          <Link to="/publication-partners" className="hover:underline">
           Publication Partners
-        {/* </Link> */}
+        </Link>
         </li>
       </ul>
 
@@ -89,8 +89,12 @@ export default function Sidebar() {
       <h3 className="font-bold text-black mx-2 text-[14px]">Previous Conferences</h3>
 
       <ul className="text-[#a05000] mb-16 mx-4">
-        <li>Websites</li>
-        <li>Abstracts</li>
+        <li> <Link to="/website" className="hover:underline">
+          Websites
+        </Link></li>
+        <li> <Link to="/abstracts" className="hover:underline">
+          Abstracts
+        </Link></li>
         <li>Invited Speakers</li>
         <li>Awards</li>
         <li>Books Published</li>
