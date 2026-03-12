@@ -21,6 +21,9 @@ import Partner from "./pages/sidebarpages/Partner";
 import Publication from "./pages/sidebarpages/Publication";
 import Website from "./pages/sidebarpages/Website";
 import Abstract from "./pages/sidebarpages/Abstract";
+import Previous from "./pages/sidebarpages/Previous";
+import Award from "./pages/sidebarpages/Award";
+import Book from "./pages/sidebarpages/Book";
 
 function App() {
   return (
@@ -50,6 +53,10 @@ function App() {
             <Route path="publication-partners" element={<Publication />} /> 
             <Route path="website" element={<Website />} />
             <Route path="abstracts" element={<Abstract />} />
+            <Route path="invited-speakers" element={<Previous />} />
+            <Route path="awards" element={<Award />} />
+            <Route path="books-published" element={<Book />} />
+
 
 
 

@@ -95,9 +95,16 @@ export default function Sidebar() {
         <li> <Link to="/abstracts" className="hover:underline">
           Abstracts
         </Link></li>
-        <li>Invited Speakers</li>
-        <li>Awards</li>
-        <li>Books Published</li>
+       
+        <li> <Link to="/invited-speakers" className="hover:underline">
+          Invited Speakers
+        </Link></li>
+        <li> <Link to="/awards" className="hover:underline">
+          Awards
+        </Link></li>
+        <li> <Link to="/books-published" className="hover:underline">
+          Books Published
+        </Link></li>
       </ul>
 
       {/* SPONSORED */}
